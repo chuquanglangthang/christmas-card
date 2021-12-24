@@ -42,11 +42,11 @@ let screenBounds = { lower: 0, upper: canvas.width};
 
 window.onfocus = function() {
   //uncomment for performance
-  window.animation_config.isRunning = true;
+//   window.animation_config.isRunning = true;
 };
 window.onblur = function() {
   //uncomment for performance
-  window.animation_config.isRunning = false;
+//   window.animation_config.isRunning = false;
 };
 
 let particleArray = [];
